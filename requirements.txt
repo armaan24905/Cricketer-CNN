@@ -1,0 +1,30 @@
+# Core numerical and data processing
+numpy>=1.26,<3.0
+
+# Data visualization
+matplotlib>=3.8,<4.0
+seaborn>=0.13,<1.0
+
+# Machine Learning
+scikit-learn>=1.4,<2.0
+
+# Deep Learning
+tensorflow>=2.16,<2.20
+
+# Image processing
+Pillow>=10.0,<12.0
+
+install_requires=[
+    "numpy>=1.26,<3.0",
+    "matplotlib>=3.8,<4.0",
+    "seaborn>=0.13,<1.0",
+    "scikit-learn>=1.4,<2.0",
+    "tensorflow>=2.16,<2.20",
+    "Pillow>=10.0,<12.0"
+]
+
+VS code terminal command to install the requirements:
+python -m pip install -r requirements.txt
+
+verify the installation:
+python -c "import tensorflow, numpy, sklearn, matplotlib, seaborn, PIL; print('All dependencies installed successfully.')"`
