@@ -3,9 +3,7 @@ from PIL import Image
 import shutil
 import random
 
-# ---------------------------------------------------------
 # Configuration
-# ---------------------------------------------------------
 
 BASE_DIR = Path(__file__).resolve().parent
 
@@ -25,10 +23,7 @@ VALID_EXTENSIONS = {
 
 random.seed(RANDOM_SEED)
 
-
-# ---------------------------------------------------------
 # Create Small Dataset
-# ---------------------------------------------------------
 
 def is_valid_image(image_path: Path) -> bool:
     """Return True if the file is a valid readable image."""

@@ -210,7 +210,7 @@ model.save("cricketer_cnn_model.keras")
 print("\nModel saved successfully!")
 
 # 15. PREDICT A NEW CRICKETER IMAGE
-from tensorflow.keras.utils import load_img, img_to_array
+
 IMAGE_PATH = "virat kolhi face_45.jpg"
 if os.path.exists(IMAGE_PATH):
     img = load_img(
